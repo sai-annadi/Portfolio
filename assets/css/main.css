@@ -157,7 +157,6 @@ article {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
-
 /* Type */
 
 	body, input, select, textarea {
@@ -3272,7 +3271,13 @@ article {
 				}
 
 		}
+		@media screen and (min-width: 736px) {
 
+			#lsbutton {
+				margin-left: 410px;
+			}
+
+		}
 /* Header */
 
 	#header {
